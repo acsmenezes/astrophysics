@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[22]:
-
-
 #################################################################################################
 ################## Cria tabela para fazer download das imagens e PSFs da HSC ####################
 #################################################################################################
@@ -32,10 +29,3 @@ coord = coord.drop(['petroR90_r'], axis='columns')          #Exclui a coluna 'pe
 
 coord.to_csv('coordSF.csv', sep = " ", index=False)         #Salva em .csv
 coord
-
-
-# In[ ]:
-
-
-
-
